@@ -67,14 +67,14 @@ struct SGSpectraAnalyzer {
       {"ZDC_C", "ZDC amplitude", {HistType::kTH1F, {{2000, 0.0, 1000.0}}}},
       {"ZDC_C_0", "ZDC amplitude", {HistType::kTH1F, {{2000, 0.0, 1000.0}}}},
       {"ZDC_C_1", "ZDC amplitude", {HistType::kTH1F, {{2000, 0.0, 1000.0}}}},
-      {"fit_3d_0", "FIT amplitude", {HistType::kTH3F, {{1000, 0.0, 1000.0}, {500, 0.0, 500.0},{80, 0.0, 80.0}}}},
-      {"fit_3d_1", "FIT amplitude", {HistType::kTH3F, {{1000, 0.0, 1000.0}, {500, 0.0, 500.0},{80, 0.0, 80.0}}}},
+      {"fit_3d_0", "FIT amplitude", {HistType::kTH3F, {{1000, 0.0, 1000.0}, {500, 0.0, 500.0}, {80, 0.0, 80.0}}}},
+      {"fit_3d_1", "FIT amplitude", {HistType::kTH3F, {{1000, 0.0, 1000.0}, {500, 0.0, 500.0}, {80, 0.0, 80.0}}}},
       {"V0A", "V0A amplitude", {HistType::kTH1F, {{1000, 0.0, 1000.0}}}},
       {"V0A_0", "V0A amplitude", {HistType::kTH1F, {{1000, 0.0, 1000.0}}}},
       {"V0A_1", "V0A amplitude", {HistType::kTH1F, {{1000, 0.0, 1000.0}}}},
-      {"qt_pt_gap0", "qt vs pT", {HistType::kTH2F, {{200, 0.0, 20.0},{200, 0.0, 20.0}}}},
-      {"qt_pt_gap1", "qt vs  pT", {HistType::kTH2F, {{200, 0.0, 20.0},{200, 0.0, 20.0}}}},
-      {"qt_pt_gap2", "qt vs pT", {HistType::kTH2F, {{200, 0.0, 20.0},{200, 0.0, 20.0}}}},
+      {"qt_pt_gap0", "qt vs pT", {HistType::kTH2F, {{200, 0.0, 20.0}, {200, 0.0, 20.0}}}},
+      {"qt_pt_gap1", "qt vs  pT", {HistType::kTH2F, {{200, 0.0, 20.0}, {200, 0.0, 20.0}}}},
+      {"qt_pt_gap2", "qt vs pT", {HistType::kTH2F, {{200, 0.0, 20.0}, {200, 0.0, 20.0}}}},
       {"track_pt_gap0", "Track pT", {HistType::kTH1F, {{200, 0.0, 20.0}}}},
       {"track_pt_gap1", "Track pT", {HistType::kTH1F, {{200, 0.0, 20.0}}}},
       {"track_pt_gap2", "Track pT", {HistType::kTH1F, {{200, 0.0, 20.0}}}},
@@ -85,39 +85,39 @@ struct SGSpectraAnalyzer {
       {"gap_mult0", "Mult", {HistType::kTH1F, {{100, 0.0, 100.0}}}},
       {"gap_mult1", "Mult", {HistType::kTH1F, {{100, 0.0, 100.0}}}},
       {"gap_mult2", "Mult", {HistType::kTH1F, {{100, 0.0, 100.0}}}},
-      { "os_KK_pT_0", "pt kaon pair", {HistType::kTH3F, {{100, 0.0, 10.0} ,{200, -10.0,10.0}, {220, 0.9, 1.12}}}},
-      { "os_KK_pT_1", "pt kaon pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0,10.0}, {220, 0.9, 1.12}}}},
-      { "os_KK_pT_2", "pt kaon pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0,10.0}, {220, 0.9, 1.12}}}},
-      { "os_KK_ls_pT_0", "kaon pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0} ,{200, -10.0,10.0}, {220, 0.9, 1.12}}}},
-      { "os_KK_ls_pT_1", "kaon pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0,10.0}, {220, 0.9, 1.12}}}},
-      { "os_KK_ls_pT_2", "kaon pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0,10.0}, {220, 0.9, 1.12}}}},
-      { "os_KK_invm_pt0", "mass kaon pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_KK_invm_pt1", "mass kaon pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_KK_invm_pt2", "mass kaon pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_KK_invm_qt0", "mass kaon pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_KK_invm_qt1", "mass kaon pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_KK_invm_qt2", "mass kaon pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_KK_pT_0", "pt kaon pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {220, 0.9, 1.12}}}},
+      {"os_KK_pT_1", "pt kaon pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {220, 0.9, 1.12}}}},
+      {"os_KK_pT_2", "pt kaon pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {220, 0.9, 1.12}}}},
+      {"os_KK_ls_pT_0", "kaon pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {220, 0.9, 1.12}}}},
+      {"os_KK_ls_pT_1", "kaon pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {220, 0.9, 1.12}}}},
+      {"os_KK_ls_pT_2", "kaon pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {220, 0.9, 1.12}}}},
+      {"os_KK_invm_pt0", "mass kaon pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_KK_invm_pt1", "mass kaon pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_KK_invm_pt2", "mass kaon pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_KK_invm_qt0", "mass kaon pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_KK_invm_qt1", "mass kaon pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_KK_invm_qt2", "mass kaon pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
 
-      { "os_pp_pT_0", "pt pion pair", {HistType::kTH3F, {{100, 0.0, 10.0},{200, -10.0,10.0}, {350, 0.0, 3.5}}}},
-      { "os_pp_pT_1", "pt pion pair", {HistType::kTH3F, {{100, 0.0, 10.0},{200, -10.0,10.0}, {350, 0.0, 3.5}}}},
-      { "os_pp_pT_2", "pt pion pair", {HistType::kTH3F, {{100, 0.0, 10.0},{200, -10.0,10.0}, {350, 0.0, 3.5}}}},
-      { "os_pp_ls_pT_0", "pion pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0},{200, -10.0,10.0}, {350, 0.0, 3.5}}}},
-      { "os_pp_ls_pT_1", "pion pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0},{200, -10.0,10.0}, {350, 0.0, 3.5}}}},
-      { "os_pp_ls_pT_2", "pion pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0},{200, -10.0,10.0}, {350, 0.0, 3.5}}}},
+      {"os_pp_pT_0", "pt pion pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {350, 0.0, 3.5}}}},
+      {"os_pp_pT_1", "pt pion pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {350, 0.0, 3.5}}}},
+      {"os_pp_pT_2", "pt pion pair", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {350, 0.0, 3.5}}}},
+      {"os_pp_ls_pT_0", "pion pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {350, 0.0, 3.5}}}},
+      {"os_pp_ls_pT_1", "pion pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {350, 0.0, 3.5}}}},
+      {"os_pp_ls_pT_2", "pion pair like sign", {HistType::kTH3F, {{100, 0.0, 10.0}, {200, -10.0, 10.0}, {350, 0.0, 3.5}}}},
 
-      { "os_pp_invm_pt0", "mass pion pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_pp_invm_pt1", "mass pion pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_pp_invm_pt2", "mass pion pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_pp_invm_qt0", "mass pion pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_pp_invm_qt1", "mass pion pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      { "os_pp_invm_qt2", "mass pion pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
-      
+      {"os_pp_invm_pt0", "mass pion pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_pp_invm_pt1", "mass pion pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_pp_invm_pt2", "mass pion pair pt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_pp_invm_qt0", "mass pion pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_pp_invm_qt1", "mass pion pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+      {"os_pp_invm_qt2", "mass pion pair qt", {HistType::kTH1F, {{100, 0, 10.0}}}},
+
     }};
   using udtracks = soa::Join<aod::UDTracks, aod::UDTracksExtra, aod::UDTracksPID>;
   using udtracksfull = soa::Join<aod::UDTracks, aod::UDTracksPID, aod::UDTracksExtra, aod::UDTracksFlags, aod::UDTracksDCA>;
   using UDCollisionsFull = soa::Join<aod::UDCollisions, aod::SGCollisions, aod::UDCollisionsSels, aod::UDZdcsReduced>; //
   using UDCollisionFull = UDCollisionsFull::iterator;
-  
+
   template <typename T>
   int trackselector(const T& track, bool use_tof)
   {
@@ -133,16 +133,16 @@ struct SGSpectraAnalyzer {
     if (track.tpcNClsFindable() < nclstpc_cut)
       return 0;
     if (track.itsChi2NCl() > itschi2_cut)
-	return 0;
-     if ( TMath::Sqrt(track.px()*track.px()+track.py()*track.py()) < pt_cut)
       return 0;
-     
-      return 1;
+    if (TMath::Sqrt(track.px() * track.px() + track.py() * track.py()) < pt_cut)
+      return 0;
+
+    return 1;
   }
   template <typename T>
   bool selectionPIDKaon(const T& candidate)
   {
-    
+
     if (use_tof && candidate.hasTOF() && (candidate.tofNSigmaKa() * candidate.tofNSigmaKa() + candidate.tpcNSigmaKa() * candidate.tpcNSigmaKa()) < nsigmatof_cut) {
       return true;
     }
@@ -153,13 +153,12 @@ struct SGSpectraAnalyzer {
       return true;
     }
     return false;
-    
   }
-  
+
   template <typename T>
   bool selectionPIDPion(const T& candidate)
   {
-    if (use_tof && candidate.hasTOF() && (candidate.tofNSigmaPi() * candidate.tofNSigmaPi() + candidate.tpcNSigmaPi() * candidate.tpcNSigmaPi()) < nsigmatof_cut ) {
+    if (use_tof && candidate.hasTOF() && (candidate.tofNSigmaPi() * candidate.tofNSigmaPi() + candidate.tpcNSigmaPi() * candidate.tpcNSigmaPi()) < nsigmatof_cut) {
       return true;
     }
     if (use_tof && !candidate.hasTOF() && std::abs(candidate.tpcNSigmaPi()) < nsigmatpc_cut) {
@@ -171,7 +170,7 @@ struct SGSpectraAnalyzer {
     return false;
   }
   template <typename T>
- bool selectionPIDMuon(const T& candidate)
+  bool selectionPIDMuon(const T& candidate)
   {
     if (use_tof && candidate.hasTOF() && (candidate.tofNSigmaMu() * candidate.tofNSigmaMu() + candidate.tpcNSigmaMu() * candidate.tpcNSigmaMu()) < nsigmatof_cut) {
       return true;
@@ -184,199 +183,208 @@ struct SGSpectraAnalyzer {
     }
     return false;
   }
-  
+
   void process(UDCollisionFull const& collision, udtracksfull const& tracks)
   {
-      TLorentzVector a;
-      TLorentzVector v0;
-      TLorentzVector v1;
-      TLorentzVector v01;
-      TLorentzVector v02,vpt,vqt;
-      
-      int gapSide = collision.gapSide();
-      int truegapSide = sgSelector.trueGap(collision, FV0_cut, ZDC_cut);
-      gapSide = truegapSide;
-      if (gapSide < 0 || gapSide > 2)
-    	return;
-      Int_t mult=collision.numContrib();
-      Double_t t0a_amp = collision.totalFT0AmplitudeA();
-      Double_t t0c_amp = collision.totalFT0AmplitudeC();
-      
-      if (gapSide==0 && t0a_amp > FT0A_cut ) return;
-      if (gapSide==1 && t0c_amp > FT0C_cut) return;
-      if (gapSide==2 && (t0c_amp > FT0A_cut  || t0a_amp > FT0C_cut) ) return;
+    TLorentzVector a;
+    TLorentzVector v0;
+    TLorentzVector v1;
+    TLorentzVector v01;
+    TLorentzVector v02, vpt, vqt;
 
-      if (gapSide==0) {registry.get<TH1>(HIST("gap_mult0"))->Fill(mult);}
-      if (gapSide==1) {registry.get<TH1>(HIST("gap_mult1"))->Fill(mult);}
-      if (gapSide==2) {registry.get<TH1>(HIST("gap_mult2"))->Fill(mult);}
-      
-      if (mult < mintrack || mult > maxtrack)  return;
-      TLorentzVector vpt_sum,vpt_diff;
-      Double_t x,y;
-      Double_t z = 0.0;
-      for (auto track1 : tracks) {
-      	if (!trackselector(track1, use_tof)) continue;
-	v0.SetXYZM(track1.px(), track1.py(), track1.pz(), o2::constants::physics::MassPionCharged);
-	auto track1ID = track1.index();
-	for (auto track2 : tracks) {
-	  if (!trackselector(track2, use_tof)) continue;
-	  
-	  auto track2ID = track2.index();
-	  if (track2ID <= track1ID) {   continue; }
-	  v1.SetXYZM(track2.px(), track2.py(), track2.pz(), o2::constants::physics::MassPionCharged);
-	  x=v0.Pt();
-	  y=v1.Pt();
-	  if ((x+y) > z )
-	    {
-	      z = x+y;
-	      vpt_sum= v0 + v1;
-	      vpt_diff = 0.5*(v0 - v1);
-	    }
-	}
+    int gapSide = collision.gapSide();
+    int truegapSide = sgSelector.trueGap(collision, FV0_cut, ZDC_cut);
+    gapSide = truegapSide;
+    if (gapSide < 0 || gapSide > 2)
+      return;
+    Int_t mult = collision.numContrib();
+    Double_t t0a_amp = collision.totalFT0AmplitudeA();
+    Double_t t0c_amp = collision.totalFT0AmplitudeC();
+
+    if (gapSide == 0 && t0a_amp > FT0A_cut)
+      return;
+    if (gapSide == 1 && t0c_amp > FT0C_cut)
+      return;
+    if (gapSide == 2 && (t0c_amp > FT0A_cut || t0a_amp > FT0C_cut))
+      return;
+
+    if (gapSide == 0) {
+      registry.get<TH1>(HIST("gap_mult0"))->Fill(mult);
+    }
+    if (gapSide == 1) {
+      registry.get<TH1>(HIST("gap_mult1"))->Fill(mult);
+    }
+    if (gapSide == 2) {
+      registry.get<TH1>(HIST("gap_mult2"))->Fill(mult);
+    }
+
+    if (mult < mintrack || mult > maxtrack)
+      return;
+    TLorentzVector vpt_sum, vpt_diff;
+    Double_t x, y;
+    Double_t z = 0.0;
+    for (auto track1 : tracks) {
+      if (!trackselector(track1, use_tof))
+        continue;
+      v0.SetXYZM(track1.px(), track1.py(), track1.pz(), o2::constants::physics::MassPionCharged);
+      auto track1ID = track1.index();
+      for (auto track2 : tracks) {
+        if (!trackselector(track2, use_tof))
+          continue;
+
+        auto track2ID = track2.index();
+        if (track2ID <= track1ID) {
+          continue;
+        }
+        v1.SetXYZM(track2.px(), track2.py(), track2.pz(), o2::constants::physics::MassPionCharged);
+        x = v0.Pt();
+        y = v1.Pt();
+        if ((x + y) > z) {
+          z = x + y;
+          vpt_sum = v0 + v1;
+          vpt_diff = 0.5 * (v0 - v1);
+        }
       }
-      
-      if(gapSide==0)
-	{
-	  
-	  registry.get<TH2>(HIST("qt_pt_gap0"))->Fill(vpt_sum.Pt(),vpt_diff.Pt());
-	  registry.get<TH1>(HIST("track_pt_gap0"))->Fill(vpt_sum.Pt());
-	  registry.get<TH1>(HIST("track_dpt_gap0"))->Fill(vpt_diff.Pt());
-	
+    }
 
-	  registry.get<TH1>(HIST("V0A_0"))->Fill(collision.totalFV0AmplitudeA());
-	  registry.get<TH1>(HIST("FT0A_0"))->Fill(collision.totalFT0AmplitudeA());
-	  registry.get<TH1>(HIST("FT0C_0"))->Fill(collision.totalFT0AmplitudeC());
-	  registry.get<TH1>(HIST("ZDC_A_0"))->Fill(collision.energyCommonZNA());
-	  registry.get<TH1>(HIST("ZDC_C_0"))->Fill(collision.energyCommonZNC());
-	  registry.get<TH3>(HIST("fit_3d_0"))->Fill(collision.energyCommonZNA(),collision.totalFT0AmplitudeA(),mult);
-	}
-      
-      if(gapSide==1)
-	{
-	  registry.get<TH2>(HIST("qt_pt_gap1"))->Fill(vpt_sum.Pt(),vpt_diff.Pt());
-	  registry.get<TH1>(HIST("track_pt_gap1"))->Fill(vpt_sum.Pt());
-	  registry.get<TH1>(HIST("track_dpt_gap1"))->Fill(vpt_diff.Pt());
-	
-	  registry.get<TH1>(HIST("V0A_1"))->Fill(collision.totalFV0AmplitudeA());
-	  registry.get<TH1>(HIST("FT0A_1"))->Fill(collision.totalFT0AmplitudeA());
-	  registry.get<TH1>(HIST("FT0C_1"))->Fill(collision.totalFT0AmplitudeC());
-	  registry.get<TH1>(HIST("ZDC_A_1"))->Fill(collision.energyCommonZNA());
-	  registry.get<TH1>(HIST("ZDC_C_1"))->Fill(collision.energyCommonZNC());
-	  registry.get<TH3>(HIST("fit_3d_1"))->Fill(collision.energyCommonZNC(),collision.totalFT0AmplitudeC(),mult);
-	}
+    if (gapSide == 0) {
 
-      if(gapSide==2)
-	{
-	  registry.get<TH2>(HIST("qt_pt_gap2"))->Fill(vpt_sum.Pt(),vpt_diff.Pt());
-	  registry.get<TH1>(HIST("track_pt_gap2"))->Fill(vpt_sum.Pt());
-	  registry.get<TH1>(HIST("track_dpt_gap2"))->Fill(vpt_diff.Pt()); 
+      registry.get<TH2>(HIST("qt_pt_gap0"))->Fill(vpt_sum.Pt(), vpt_diff.Pt());
+      registry.get<TH1>(HIST("track_pt_gap0"))->Fill(vpt_sum.Pt());
+      registry.get<TH1>(HIST("track_dpt_gap0"))->Fill(vpt_diff.Pt());
 
-	  registry.get<TH1>(HIST("V0A"))->Fill(collision.totalFV0AmplitudeA());
-	  registry.get<TH1>(HIST("FT0A"))->Fill(collision.totalFT0AmplitudeA());
-	  registry.get<TH1>(HIST("FT0C"))->Fill(collision.totalFT0AmplitudeC());
-	  registry.get<TH1>(HIST("ZDC_A"))->Fill(collision.energyCommonZNA());
-	  registry.get<TH1>(HIST("ZDC_C"))->Fill(collision.energyCommonZNC());
-	}
-      
-      for (auto& [t0, t1] : combinations(tracks, tracks))
-	{
-	  if (!(trackselector(t0, use_tof) && trackselector(t1, use_tof))) continue;		
+      registry.get<TH1>(HIST("V0A_0"))->Fill(collision.totalFV0AmplitudeA());
+      registry.get<TH1>(HIST("FT0A_0"))->Fill(collision.totalFT0AmplitudeA());
+      registry.get<TH1>(HIST("FT0C_0"))->Fill(collision.totalFT0AmplitudeC());
+      registry.get<TH1>(HIST("ZDC_A_0"))->Fill(collision.energyCommonZNA());
+      registry.get<TH1>(HIST("ZDC_C_0"))->Fill(collision.energyCommonZNC());
+      registry.get<TH3>(HIST("fit_3d_0"))->Fill(collision.energyCommonZNA(), collision.totalFT0AmplitudeA(), mult);
+    }
 
-	  if (selectionPIDKaon(t0) && selectionPIDKaon(t1)){
-	    // Apply kaon hypothesis and create pairs
-	    v0.SetXYZM(t0.px(), t0.py(), t0.pz(), o2::constants::physics::MassKaonCharged);
-	    v1.SetXYZM(t1.px(), t1.py(), t1.pz(), o2::constants::physics::MassKaonCharged);
-	    if(v0.Eta() > std::abs(1.0) || v1.Eta() > std::abs(1.0)) continue;
-	    v01 = v0 + v1;
-	    vpt = 0.5*(v0 - v1);
-	    vqt = v0+v1;	    
-	    
-	    // Opposite sign pairs
-	    if (t0.sign() != t1.sign()) {
-	      if (gapSide == 0) {
-		registry.fill(HIST("os_KK_pT_0"), v01.Pt(),v01.Rapidity(),v01.M());
-	      if( 1.005 < v01.M()< 1.035){
-	      registry.fill(HIST("os_KK_invm_pt0"), vpt.Pt());	      
-	      registry.fill(HIST("os_KK_invm_qt0"), vqt.Pt());
-	      }
-	    }
-	    if (gapSide == 1) {
-	      registry.fill(HIST("os_KK_pT_1"), v01.Pt(),v01.Rapidity(),v01.M());
-	      if( 1.005 < v01.M()< 1.035){
-	      registry.fill(HIST("os_KK_invm_pt1"), vpt.Pt());	      
-	      registry.fill(HIST("os_KK_invm_qt1"), vqt.Pt());
-	      }
-	    }
-	    if (gapSide == 2) {
-	      registry.fill(HIST("os_KK_pT_2"), v01.Pt(),v01.Rapidity(),v01.M());
-	      if( 1.005 < v01.M()< 1.035){
-		registry.fill(HIST("os_KK_invm_pt2"), vpt.Pt());	      
-		registry.fill(HIST("os_KK_invm_qt2"), vqt.Pt());
-	      }
-	    }
-	  }
-	    //samesignpair	    
-	    if (t0.sign() == t1.sign()) {
-	      if (gapSide == 0) {
-		registry.fill(HIST("os_KK_ls_pT_0"), v01.Pt(),v01.Rapidity(),v01.M());
-	      }
-	      if (gapSide == 1) {
-		registry.fill(HIST("os_KK_ls_pT_1"), v01.Pt(),v01.Rapidity(),v01.M());
-	      }
-	      if (gapSide == 2) {
-		registry.fill(HIST("os_KK_ls_pT_2"), v01.Pt(),v01.Rapidity(),v01.M());
-	      }
-	    } 
-	  }
-	  
-	  if (selectionPIDPion(t0) && selectionPIDPion(t1)){
-	    v0.SetXYZM(t0.px(), t0.py(), t0.pz(), o2::constants::physics::MassPionCharged);
-	    v1.SetXYZM(t1.px(), t1.py(), t1.pz(), o2::constants::physics::MassPionCharged);
-	    if(v0.Eta() > std::abs(1.0) || v1.Eta() > std::abs(1.0)) continue;
-	    v01 = v0 + v1;
-	    vpt = 0.5*(v0 - v1);
-	    vqt = v0+v1;
-	    // Opposite sign pairs
-	    
-	    if (t0.sign() != t1.sign()) {
-	      if (gapSide == 0) {
-		registry.fill(HIST("os_pp_pT_0"), v01.Pt(),v01.Rapidity(),v01.M());
-		if( 0.6< v01.M()< 0.8){
-		  registry.fill(HIST("os_pp_invm_pt0"), vpt.Pt());	      
-		  registry.fill(HIST("os_pp_invm_qt0"), vqt.Pt());
-		}
-	      }
-	      if (gapSide == 1) {
-		registry.fill(HIST("os_pp_pT_1"), v01.Pt(),v01.Rapidity(),v01.M());
-		if( 0.60 < v01.M()< 0.8){
-		  registry.fill(HIST("os_pp_invm_pt1"), vpt.Pt());	      
-		  registry.fill(HIST("os_pp_invm_qt1"), vqt.Pt());
-		}
-	      }
-	      if (gapSide == 2) {
-		registry.fill(HIST("os_pp_pT_2"), v01.Pt(),v01.Rapidity(),v01.M());
-		if( 0.60 < v01.M()< 0.8){
-		  registry.fill(HIST("os_pp_invm_pt2"), vpt.Pt());	      
-		  registry.fill(HIST("os_pp_invm_qt2"), vqt.Pt());
-		}
-	      }
-	    }  // same sign pair
-	    if (t0.sign() == t1.sign()) {
-	      if (gapSide == 0) {
-		registry.fill(HIST("os_pp_ls_pT_0"), v01.Pt(),v01.Rapidity(),v01.M());
-	      }
-	      if (gapSide == 1) {
-		registry.fill(HIST("os_pp_ls_pT_1"), v01.Pt(),v01.Rapidity(),v01.M());
-	      }
-	      if (gapSide == 2) {
-		registry.fill(HIST("os_pp_ls_pT_2"), v01.Pt(),v01.Rapidity(),v01.M());
-	      }
-	    }
-	    
-	  }
-	}       	
+    if (gapSide == 1) {
+      registry.get<TH2>(HIST("qt_pt_gap1"))->Fill(vpt_sum.Pt(), vpt_diff.Pt());
+      registry.get<TH1>(HIST("track_pt_gap1"))->Fill(vpt_sum.Pt());
+      registry.get<TH1>(HIST("track_dpt_gap1"))->Fill(vpt_diff.Pt());
+
+      registry.get<TH1>(HIST("V0A_1"))->Fill(collision.totalFV0AmplitudeA());
+      registry.get<TH1>(HIST("FT0A_1"))->Fill(collision.totalFT0AmplitudeA());
+      registry.get<TH1>(HIST("FT0C_1"))->Fill(collision.totalFT0AmplitudeC());
+      registry.get<TH1>(HIST("ZDC_A_1"))->Fill(collision.energyCommonZNA());
+      registry.get<TH1>(HIST("ZDC_C_1"))->Fill(collision.energyCommonZNC());
+      registry.get<TH3>(HIST("fit_3d_1"))->Fill(collision.energyCommonZNC(), collision.totalFT0AmplitudeC(), mult);
+    }
+
+    if (gapSide == 2) {
+      registry.get<TH2>(HIST("qt_pt_gap2"))->Fill(vpt_sum.Pt(), vpt_diff.Pt());
+      registry.get<TH1>(HIST("track_pt_gap2"))->Fill(vpt_sum.Pt());
+      registry.get<TH1>(HIST("track_dpt_gap2"))->Fill(vpt_diff.Pt());
+
+      registry.get<TH1>(HIST("V0A"))->Fill(collision.totalFV0AmplitudeA());
+      registry.get<TH1>(HIST("FT0A"))->Fill(collision.totalFT0AmplitudeA());
+      registry.get<TH1>(HIST("FT0C"))->Fill(collision.totalFT0AmplitudeC());
+      registry.get<TH1>(HIST("ZDC_A"))->Fill(collision.energyCommonZNA());
+      registry.get<TH1>(HIST("ZDC_C"))->Fill(collision.energyCommonZNC());
+    }
+
+    for (auto& [t0, t1] : combinations(tracks, tracks)) {
+      if (!(trackselector(t0, use_tof) && trackselector(t1, use_tof)))
+        continue;
+
+      if (selectionPIDKaon(t0) && selectionPIDKaon(t1)) {
+        // Apply kaon hypothesis and create pairs
+        v0.SetXYZM(t0.px(), t0.py(), t0.pz(), o2::constants::physics::MassKaonCharged);
+        v1.SetXYZM(t1.px(), t1.py(), t1.pz(), o2::constants::physics::MassKaonCharged);
+        if (v0.Eta() > std::abs(1.0) || v1.Eta() > std::abs(1.0))
+          continue;
+        v01 = v0 + v1;
+        vpt = 0.5 * (v0 - v1);
+        vqt = v0 + v1;
+
+        // Opposite sign pairs
+        if (t0.sign() != t1.sign()) {
+          if (gapSide == 0) {
+            registry.fill(HIST("os_KK_pT_0"), v01.Pt(), v01.Rapidity(), v01.M());
+            if (1.005 < v01.M() < 1.035) {
+              registry.fill(HIST("os_KK_invm_pt0"), vpt.Pt());
+              registry.fill(HIST("os_KK_invm_qt0"), vqt.Pt());
+            }
+          }
+          if (gapSide == 1) {
+            registry.fill(HIST("os_KK_pT_1"), v01.Pt(), v01.Rapidity(), v01.M());
+            if (1.005 < v01.M() < 1.035) {
+              registry.fill(HIST("os_KK_invm_pt1"), vpt.Pt());
+              registry.fill(HIST("os_KK_invm_qt1"), vqt.Pt());
+            }
+          }
+          if (gapSide == 2) {
+            registry.fill(HIST("os_KK_pT_2"), v01.Pt(), v01.Rapidity(), v01.M());
+            if (1.005 < v01.M() < 1.035) {
+              registry.fill(HIST("os_KK_invm_pt2"), vpt.Pt());
+              registry.fill(HIST("os_KK_invm_qt2"), vqt.Pt());
+            }
+          }
+        }
+        // samesignpair
+        if (t0.sign() == t1.sign()) {
+          if (gapSide == 0) {
+            registry.fill(HIST("os_KK_ls_pT_0"), v01.Pt(), v01.Rapidity(), v01.M());
+          }
+          if (gapSide == 1) {
+            registry.fill(HIST("os_KK_ls_pT_1"), v01.Pt(), v01.Rapidity(), v01.M());
+          }
+          if (gapSide == 2) {
+            registry.fill(HIST("os_KK_ls_pT_2"), v01.Pt(), v01.Rapidity(), v01.M());
+          }
+        }
+      }
+
+      if (selectionPIDPion(t0) && selectionPIDPion(t1)) {
+        v0.SetXYZM(t0.px(), t0.py(), t0.pz(), o2::constants::physics::MassPionCharged);
+        v1.SetXYZM(t1.px(), t1.py(), t1.pz(), o2::constants::physics::MassPionCharged);
+        if (v0.Eta() > std::abs(1.0) || v1.Eta() > std::abs(1.0))
+          continue;
+        v01 = v0 + v1;
+        vpt = 0.5 * (v0 - v1);
+        vqt = v0 + v1;
+        // Opposite sign pairs
+
+        if (t0.sign() != t1.sign()) {
+          if (gapSide == 0) {
+            registry.fill(HIST("os_pp_pT_0"), v01.Pt(), v01.Rapidity(), v01.M());
+            if (0.6 < v01.M() < 0.8) {
+              registry.fill(HIST("os_pp_invm_pt0"), vpt.Pt());
+              registry.fill(HIST("os_pp_invm_qt0"), vqt.Pt());
+            }
+          }
+          if (gapSide == 1) {
+            registry.fill(HIST("os_pp_pT_1"), v01.Pt(), v01.Rapidity(), v01.M());
+            if (0.60 < v01.M() < 0.8) {
+              registry.fill(HIST("os_pp_invm_pt1"), vpt.Pt());
+              registry.fill(HIST("os_pp_invm_qt1"), vqt.Pt());
+            }
+          }
+          if (gapSide == 2) {
+            registry.fill(HIST("os_pp_pT_2"), v01.Pt(), v01.Rapidity(), v01.M());
+            if (0.60 < v01.M() < 0.8) {
+              registry.fill(HIST("os_pp_invm_pt2"), vpt.Pt());
+              registry.fill(HIST("os_pp_invm_qt2"), vqt.Pt());
+            }
+          }
+        } // same sign pair
+        if (t0.sign() == t1.sign()) {
+          if (gapSide == 0) {
+            registry.fill(HIST("os_pp_ls_pT_0"), v01.Pt(), v01.Rapidity(), v01.M());
+          }
+          if (gapSide == 1) {
+            registry.fill(HIST("os_pp_ls_pT_1"), v01.Pt(), v01.Rapidity(), v01.M());
+          }
+          if (gapSide == 2) {
+            registry.fill(HIST("os_pp_ls_pT_2"), v01.Pt(), v01.Rapidity(), v01.M());
+          }
+        }
+      }
+    }
   }
-  
 };
 
 WorkflowSpec defineDataProcessing(ConfigContext const& cfgc)
