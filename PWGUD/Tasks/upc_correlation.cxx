@@ -16,7 +16,7 @@
 #include "iostream"
 #include "PWGUD/DataModel/UDTables.h"
 #include "PWGUD/Core/SGSelector.h"
-// #include "Common/DataModel/PIDResponse.h"
+#include "Common/DataModel/PIDResponse.h"
 // #include "PWGUD/Core/RLhelper.h"
 #include <TString.h>
 #include "TLorentzVector.h"
@@ -35,6 +35,8 @@ struct SGSpectraAnalyzer {
   Configurable<float> FV0_cut{"FV0", 100., "FV0A threshold"};
   Configurable<float> FT0A_cut{"FT0A", 100., "FT0A threshold"};
   Configurable<float> FT0C_cut{"FT0C", 100., "FT0C threshold"};
+  Configurable<float> FDDA_cut{"FDDA", 10000., "FDDA threshold"};
+  Configurable<float> FDDC_cut{"FDDC", 10000., "FDDC threshold"};                            
   Configurable<float> ZDC_cut{"ZDC", 0., "ZDC threshold"};
   Configurable<float> eta_cut{"Eta", 0.9, "Eta cut"};
   Configurable<float> pt_cut{"Pt", 0.15, "Pt cut"};
@@ -189,7 +191,8 @@ struct SGSpectraAnalyzer {
     TLorentzVector v01;
     TLorentzVector v02, vpt, vqt;
     int gapSide = collision.gapSide();
-    int truegapSide = sgSelector.trueGap(collision, FV0_cut, ZDC_cut);
+    float FIT_cut[5] = {FV0_cut, FT0A_cut, FT0C_cut, FDDA_cut, FDDC_cut};
+    int truegapSide = sgSelector.trueGap(collision, FIT_cut[0], FIT_cut[1], FIT_cut[3], ZDC_cut);
     gapSide = truegapSide;
     if (gapSide < 0 || gapSide > 2)
       return;
