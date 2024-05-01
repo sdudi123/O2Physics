@@ -36,7 +36,7 @@ struct SGSpectraAnalyzer {
   Configurable<float> FT0A_cut{"FT0A", 100., "FT0A threshold"};
   Configurable<float> FT0C_cut{"FT0C", 100., "FT0C threshold"};
   Configurable<float> FDDA_cut{"FDDA", 10000., "FDDA threshold"};
-  Configurable<float> FDDC_cut{"FDDC", 10000., "FDDC threshold"};                            
+  Configurable<float> FDDC_cut{"FDDC", 10000., "FDDC threshold"};
   Configurable<float> ZDC_cut{"ZDC", 0., "ZDC threshold"};
   Configurable<float> eta_cut{"Eta", 0.9, "Eta cut"};
   Configurable<float> pt_cut{"Pt", 0.15, "Pt cut"};
